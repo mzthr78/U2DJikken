@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3213028397213364707}
   - component: {fileID: 3355748586675075695}
   - component: {fileID: 8900998230306205185}
+  - component: {fileID: 7287004778861791018}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Untagged
@@ -152,3 +153,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da5d8738ad9e841a2839537700785142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::brick
+--- !u!50 &7287004778861791018
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7663487850492956322}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
